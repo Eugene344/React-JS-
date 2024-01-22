@@ -1,0 +1,24 @@
+.PersonalArea {
+    width: 100%;
+    min-height: calc(100vh - 50px - 50px);
+    background-color: #ffffff;
+    align-items: center;
+}
+
+.PersonalArea input {
+    height: 30px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.PersonalArea button {
+    height: 30px;
+    width: 110px;
+    background-color: #aad7fa;
+    border-style: none;
+}
+
+.PersonalArea button:hover {
+    background-color: #6ebcff;
+    cursor: pointer;
+}

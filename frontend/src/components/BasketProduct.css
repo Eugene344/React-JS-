@@ -1,0 +1,52 @@
+.BasketProduct {
+    width: 300px;
+    height: 450px;
+    padding: 30px;
+    box-shadow: 0px 0px 5px 5px #dfdddf;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.BasketProduct img {
+    height: 250px;
+    width: auto;
+}
+
+.BasketProduct h1 {
+    color: gray;
+}
+
+.BasketProduct .delete {
+    height: 80px;
+    width: 200px;
+    border-style: none;
+    background-color: #aad7fa;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.BasketProduct .delete:hover {
+    background-color: #6ebcff;
+    cursor: pointer;
+}
+
+.BasketProduct .basketNumber {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.BasketProduct .basketNumber button {
+    width: 30px;
+    border-style: none;
+    background-color: #aad7fa;
+    border-radius: 10px;
+    font-size: 16pt;
+}
+
+.BasketProduct .basketNumber button:hover {
+    background-color: #78abd1;
+}
